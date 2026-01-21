@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Soul.nest 🤍</title>
-  <link rel="stylesheet" href="style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title>SoulNest – Chat</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS LINK -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <div class="chat-card">
-    <div class="header">
-      <span class="heart">💗</span>
-      <h2>Soul.nest</h2>
-      <p class="sub">Your safe emotional space</p>
+  <div class="chat-container">
+
+    <!-- HEADER -->
+    <div class="chat-header">
+      <h2>💗 SoulNest</h2>
+      <span>Your safe emotional space</span>
     </div>
 
-    <div id="chatBox" class="chat-box">
-      <div class="bot">
-        Hi 🤍 I’m Soul.nest.  
-        Jo bhi feel ho raha hai, yahin likho. Main sun rahi hoon.
+    <!-- CHAT MESSAGES -->
+    <div class="chat-box" id="chatBox">
+      <div class="message bot">
+        Hi… I’m SoulNest 🌸  
+        Tum jo bhi feel kar rahi ho, yahan likh sakti ho.  
+        Main sun rahi hoon 💗
       </div>
     </div>
 
-    <div class="input-area">
-      <input
-        id="userInput"
-        type="text"
-        placeholder="Share your feelings…"
-        autocomplete="off"
-      />
-      <button onclick="send()">💗</button>
+    <!-- INPUT AREA -->
+    <div class="chat-input">
+      <input 
+        type="text" 
+        id="userInput" 
+        placeholder="Apni feeling yahan likho…"
+      >
+      <button onclick="sendMessage()">💗</button>
     </div>
+
   </div>
 
+  <!-- JS FILE -->
   <script src="script.js"></script>
 </body>
 </html>
