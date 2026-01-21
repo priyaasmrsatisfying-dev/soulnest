@@ -2,47 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SoulNest – Chat</title>
+  <title>Soul.nest 💗</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- CSS LINK -->
   <link rel="stylesheet" href="style.css">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <div class="container">
 
-  <div class="chat-container">
-
-    <!-- HEADER -->
-    <div class="chat-header">
-      <h2>💗 SoulNest</h2>
-      <span>Your safe emotional space</span>
+    <div class="header">
+      💗 Soul.nest
     </div>
 
-    <!-- CHAT MESSAGES -->
-    <div class="chat-box" id="chatBox">
+    <div id="chatBox">
       <div class="message bot">
-        Hi… I’m SoulNest 🌸  
-        Tum jo bhi feel kar rahi ho, yahan likh sakti ho.  
-        Main sun rahi hoon 💗
+        Hi 🤍 main Soul.nest hoon.  
+        Jo dil mein ho, likh do… main sun rahi hoon 🌸
       </div>
     </div>
 
-    <!-- INPUT AREA -->
-    <div class="chat-input">
+    <div class="input-area">
       <input 
         type="text" 
         id="userInput" 
-        placeholder="Apni feeling yahan likho…"
+        placeholder="Dil ki baat likho…" 
+        autocomplete="off"
       >
       <button onclick="sendMessage()">💗</button>
     </div>
 
   </div>
 
-  <!-- JS FILE -->
   <script src="script.js"></script>
 </body>
 </html>
